@@ -2,11 +2,11 @@
 
 Written by : Alexander Laskowski – al226nd
  
-The purpose of this project is to be able to measure the temperature and humidity and with the help of wifi it will be possible to transfer the measured values to adafruit and later display these values using graphs. This is a project for beginners, and it should take approximately around 3-4 hours to complete the project.
+The purpose of this project is to be able to measure the temperature and humidity and using WiFi it will be possible to transfer the measured values to adafruit and later display these values using graphs. This is a project for beginners, and it should take approximately around 3-4 hours to complete the project.
 
 ## Objective
 
-I have chosen to build this device because I thought it would be an interesting starting point to IoT and it filled a need which I had at the time as I was curious about the difference between temperature and humidity in rooms connected to each other. These measured values could be used as a starting point as to identify which rooms need to be better ventilated.
+I have chosen to build this device because I thought it would be an interesting starting point to IoT and it filled a need which I had at the time as I was curious about the temperature and humidity in different rooms. These measured values could be used as a starting point as to identify which rooms need to be better ventilated.
 
 ## Material
 
