@@ -78,4 +78,6 @@ After having set up everything and getting it to run correctly. The Raspberry Pi
 
 ## Final thoughts and design
 
+Now we're done and we have a final design of our project. Considering this is a beginners project I think that the end results are good. We have a solid understanding of how to connect sensors, how to transfer this data and how to display it in a dashboard. In hindsight I think that I should have added another sensor such as a photosensor in order to have a more complete picture of how the weather is but all things considered I am content with the result.
 
+![Final Picture](https://github.com/Lorsted/Creating-a-Temperature-and-Humidity-measuring-device/assets/117736750/feb2f01d-82b4-4625-9e88-ed58bab88300)
