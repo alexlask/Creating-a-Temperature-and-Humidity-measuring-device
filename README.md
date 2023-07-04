@@ -75,3 +75,7 @@ In this project we are utilizing the local WiFi network in order to transfer the
 After having set up everything and getting it to run correctly. The Raspberry Pi Pico should now be sending weather data to the feeds specified. We later use these feeds in order to provide data to the dashboard in the way we would like to see them. I prefer to see to two graphs and to gauges to represent the current temperature and humidity and also the historical values recorded. The data used in the graphs are the data readings from the last 48 hours.
 
 ![image](https://github.com/Lorsted/Creating-a-Temperature-and-Humidity-measuring-device/assets/117736750/c88b394d-0b51-4009-bb03-c48709a2a6d9)
+
+## Final thoughts and design
+
+
