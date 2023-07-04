@@ -54,3 +54,24 @@ We structure the code using the following format.
 
 ![image](https://github.com/Lorsted/Creating-a-Temperature-and-Humidity-measuring-device/assets/117736750/07bc71eb-ff3c-43c3-920e-0591a82a6471)
 
+Here is an explanation of the 4 files in the project.
+
+### boot.py
+This file runs when the controller is booted. This file has information about how to connect to the wifi network. This file imports the details configured in the secrets.py file and uses it to connect to the network.
+
+### main.py
+This file contains the core of the project. It in this file we configure the Adafruit IO settings as well as define the interval for sending data to the feed(s).
+
+### mqtt.py
+This file contains functions related to MQTT. Is used in main when we import the MQTTClient class from this file.
+
+### secrets.py
+This file contains the ssid and password for the wifi.
+
+## Transmitting data
+In this project we are utilizing the local WiFi network in order to transfer the data readings every 15 seconds. Using the MQTT protocols we transfer to Adafruit in order to be able to display these readings in a Dashboard of our choosing.
+
+## Presenting data
+After having set up everything and getting it to run correctly. The Raspberry Pi Pico should now be sending weather data to the feeds specified. We later use these feeds in order to provide data to the dashboard in the way we would like to see them. I prefer to see to two graphs and to gauges to represent the current temperature and humidity and also the historical values recorded. The data used in the graphs are the data readings from the last 48 hours.
+
+![image](https://github.com/Lorsted/Creating-a-Temperature-and-Humidity-measuring-device/assets/117736750/c88b394d-0b51-4009-bb03-c48709a2a6d9)
