@@ -59,14 +59,22 @@ Here is an explanation of the 4 files in the project.
 ### boot.py
 This file runs when the controller is booted. This file has information about how to connect to the wifi network. This file imports the details configured in the secrets.py file and uses it to connect to the network.
 
+Link to the boot file can be found [here](https://github.com/Lorsted/Creating-a-Temperature-and-Humidity-measuring-device/blob/main/LNU_Project_Program%20-%20al226nd/boot.py).
+
 ### main.py
 This file contains the core of the project. It in this file we configure the Adafruit IO settings as well as define the interval for sending data to the feed(s).
+
+Link to the main file can be found [here](https://github.com/Lorsted/Creating-a-Temperature-and-Humidity-measuring-device/blob/main/LNU_Project_Program%20-%20al226nd/main.py)
 
 ### mqtt.py
 This file contains functions related to MQTT. Is used in main when we import the MQTTClient class from this file.
 
+Link to the mqtt file can be found [here](https://github.com/Lorsted/Creating-a-Temperature-and-Humidity-measuring-device/blob/main/LNU_Project_Program%20-%20al226nd/mqtt.py)
+
 ### secrets.py
 This file contains the ssid and password for the wifi.
+
+Link to the secrets file can be found [here](https://github.com/Lorsted/Creating-a-Temperature-and-Humidity-measuring-device/blob/main/LNU_Project_Program%20-%20al226nd/secrets.py)
 
 ## Transmitting data
 In this project we are utilizing the local WiFi network in order to transfer the data readings every 15 seconds. Using the MQTT protocols we transfer to Adafruit in order to be able to display these readings in a Dashboard of our choosing.
