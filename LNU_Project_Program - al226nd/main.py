@@ -19,11 +19,11 @@ dht11Sensor = dht.DHT11(machine.Pin(27))
 # Adafruit IO (AIO) configuration
 AIO_SERVER = "io.adafruit.com"
 AIO_PORT = 1883
-AIO_USER = ""
-AIO_KEY = ""
+AIO_USER = "YourUsernameHere"
+AIO_KEY = "YourPasswordHere"
 AIO_CLIENT_ID = ubinascii.hexlify(machine.unique_id())  # Can be anything
-AIO_TEMPERATURE_FEED = ""
-AIO_HUMIDITY_FEED = ""
+AIO_TEMPERATURE_FEED = "YourTemperatureFeedHere"
+AIO_HUMIDITY_FEED = "YourHumidityFeedHere"
 
 
 # Callback Function to respond to messages from Adafruit IO
