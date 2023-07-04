@@ -19,6 +19,22 @@ I have chosen to build this device because I thought it would be an interesting 
 | Micro USB cable | The cable is used in order to connect the computer to the microcontroller and enabling both charging and the transfer of the program used. | Electrokit  | 39  |
 
 
-In this project we use the Raspberry Pi Pico WH, it is a versatible piece of equipment with more than enough pins in order to complete this project.
+## Computer Setup
 
-The sensor used in order to measure the temperature and humidity is the [DHT11](https://pages.github.com/).
+For an IDE we use Visual Studio Code. On top of that we will use the PyMakr extension to upload code to the Pico WH. To use the extension we also need to install NodeJS.
+
+### Setting up the environment
+
+1. Install Python if you don't already have it installed.
+2. Download and install NodeJS. Make sure to get the current version and not LTS.
+3. Download and install the IDE VSCode.
+4. Get the PyMakr extension in VSCode.
+5. Update firmware on the Raspberry Pi Pico:
+   - Download MicroPython firmware. This is a uf2 file. Make sure to get latest one from Releases and not Nightly builds.
+   - Connect the micro-USB cable to the Raspberry Pi Pico.
+   - While pushing the BOOTSEL button on the board, connect the other end of the micro-USB cable to your computer. After plugging it in you can release the BOOTSEL button.
+   - A new drive should pop up in your file system named RPI-RP2 which is the Raspberry Pi Pico storage. Move the uf2, that you downloaded earlier, into this storage.
+   - Wait for the board to automatically disconnect and reconnect.
+
+## Putting it together
+
