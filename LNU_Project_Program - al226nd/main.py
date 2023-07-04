@@ -47,7 +47,6 @@ def send_data():
     print("Publishing: {0} to {1} ... ".format(temperature, AIO_TEMPERATURE_FEED), end='')
     try:
         client.publish(topic=AIO_TEMPERATURE_FEED, msg=str(temperature))
-        client.publish(topic=AIO_HUMIDITY_FEED, msg=str(humidity))
         print("DONE")
     except Exception as e:
         print("FAILED")
