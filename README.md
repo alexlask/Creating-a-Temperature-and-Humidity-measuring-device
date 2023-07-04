@@ -39,3 +39,11 @@ For an IDE we use Visual Studio Code. On top of that we will use the PyMakr exte
 ## Putting it together
 
 ![image](https://github.com/Lorsted/Creating-a-Temperature-and-Humidity-measuring-device/assets/117736750/4c6a6c5f-f2a2-4fa2-92a5-5ae574689c61)# Creating a Temperature and Humidity measuring device
+
+## Platform
+
+For this project, we have chosen Adafruit as the platform of choice. Adafruit provides a user-friendly and free platform that is particularly suitable for beginners. One of its key features is the ability to create simple visualizations that effectively present data.
+
+To begin, we need to set up an account on Adafruit IO. This account will enable us to take advantage of the platform's data logging and visualization capabilities. Once registered, we can create two separate feeds—one for temperature and another for humidity. The process of setting up feeds is well-documented in the instructions provided on the Adafruit website.
+
+By following the provided instructions, we can easily create feeds on Adafruit IO for temperature and humidity. These feeds will serve as repositories for storing and organizing the sensor data collected by the Raspberry Pi Pico WH. Subsequently, we can leverage Adafruit's visualization tools to present the data in a clear and easily comprehensible manner.
