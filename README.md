@@ -1,4 +1,4 @@
-# Creating a Temperature and Humidity measuring device
+
 
 Written by : Alexander Laskowski – al226nd
  
@@ -38,3 +38,4 @@ For an IDE we use Visual Studio Code. On top of that we will use the PyMakr exte
 
 ## Putting it together
 
+![image](https://github.com/Lorsted/Creating-a-Temperature-and-Humidity-measuring-device/assets/117736750/4c6a6c5f-f2a2-4fa2-92a5-5ae574689c61)# Creating a Temperature and Humidity measuring device
