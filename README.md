@@ -47,3 +47,10 @@ For this project, we have chosen Adafruit as the platform of choice. Adafruit pr
 To begin, we need to set up an account on Adafruit IO. This account will enable us to take advantage of the platform's data logging and visualization capabilities. Once registered, we can create two separate feeds—one for temperature and another for humidity. The process of setting up feeds is well-documented in the instructions provided on the Adafruit website.
 
 By following the provided instructions, we can easily create feeds on Adafruit IO for temperature and humidity. These feeds will serve as repositories for storing and organizing the sensor data collected by the Raspberry Pi Pico WH. Subsequently, we can leverage Adafruit's visualization tools to present the data in a clear and easily comprehensible manner.
+
+## Code
+
+We structure the code using the following format.
+
+![image](https://github.com/Lorsted/Creating-a-Temperature-and-Humidity-measuring-device/assets/117736750/07bc71eb-ff3c-43c3-920e-0591a82a6471)
+
