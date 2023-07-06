@@ -1,5 +1,5 @@
 
-Title: Creating a Temperature and Humidity measuring device
+## Creating a Temperature and Humidity measuring device
 
 Written by : Alexander Laskowski – al226nd
  
@@ -44,6 +44,8 @@ For an IDE we use Visual Studio Code. On top of that we will use the PyMakr exte
 You will be able to upload the code with the help of the USB cable. Make sure that it is connected properly between the controller and your computer. When you want to upload the code from VSCode to the Raspberry Pi Pico you need to press the following button in the pymakr extension.
 
 ![image](https://github.com/Lorsted/Creating-a-Temperature-and-Humidity-measuring-device/assets/117736750/830757c5-6f8b-4bad-9a3e-6b456b79c7ce)
+
+
 
 
 ## Putting it together
