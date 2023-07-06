@@ -39,6 +39,13 @@ For an IDE we use Visual Studio Code. On top of that we will use the PyMakr exte
    - A new drive should pop up in your file system named RPI-RP2 which is the Raspberry Pi Pico storage. Move the uf2, that you downloaded earlier, into this storage.
    - Wait for the board to automatically disconnect and reconnect.
 
+### Uploading the code
+
+You will be able to upload the code with the help of the USB cable. Make sure that it is connected properly between the controller and your computer. When you want to upload the code from VSCode to the Raspberry Pi Pico you need to press the following button in the pymakr extension.
+
+![image](https://github.com/Lorsted/Creating-a-Temperature-and-Humidity-measuring-device/assets/117736750/830757c5-6f8b-4bad-9a3e-6b456b79c7ce)
+
+
 ## Putting it together
 
 ![image](https://github.com/Lorsted/Creating-a-Temperature-and-Humidity-measuring-device/assets/117736750/4c6a6c5f-f2a2-4fa2-92a5-5ae574689c61)
