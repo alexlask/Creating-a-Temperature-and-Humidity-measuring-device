@@ -1,5 +1,5 @@
 
-
+Title: Creating a Temperature and Humidity measuring device
 Written by : Alexander Laskowski – al226nd
  
 The purpose of this project is to be able to measure the temperature and humidity and using WiFi it will be possible to transfer the measured values to adafruit and later display these values using graphs. 
